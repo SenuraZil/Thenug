@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="paypage.css">
+    <script src="/WDOS-second-asingment-main/assingment 2/js-as3/payment.js" defer></script>
+    <title>Payment Page</title>
+</head>
+<body>
+    <div class="sidenav">
+      <nav class="nav">
+          
+          <ul>
+              <li><a href="index1.html">Home Page</a></li>
+              <li><a href="turtlecatergories.html">Turtle categories</a></li>
+              <li><a href="threats.html">Threats</a></li>
+              <li><a href="hikkaduwa.html">Hikaduwa turtle hatchery</a></li>
+              <li><a href="purchase.html">other turtle hatcheries</a></li>
+              <li><a href="purchase1.html">purchase and donate</a></li>
+              
+          </ul>
+      </nav>
+   </div>
+  <img src="images/logo1.png" class="logo">
+  <div class="buytickets">
+    <p>Enter your details</p>
+    <main>
+        <section class="gurstbox1">
+            <h2>Enter Payment details</h2>
+            <form id="payment-form">
+                <label for="cardNumber">Card Number:</label>
+                <input type="text" id="cardNumber" name="cardNumber" required>
+                <label for="expiryDate">Expiry Date:</label>
+                <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YY" required>
+                <label for="cvc">CVC / CVV:</label>
+                <input type="text" id="cvc" name="cvc" required>
+                <label for="nameOnCard">Name on Card:</label>
+                <input type="text" id="nameOnCard" name="nameOnCard" required>
+                <button type="submit" id="payButton" disabled>Pay <span id="payAmount"></span></button>
+            </form>
+        </section>
+        <div class="gurstbox">
+        <section class="stable">
+        
+                
+                  <h2>Summary</h2>
+                  <table>
+                    <tr>
+                      <td>Date</td>
+                      <td id="Sdate"></td>
+                    </tr>
+                    <tr>
+                      <td>Time</td>
+                      <td id="sTime"></td>
+                    </tr>
+                    <tr>
+                      <td>Duration (Peak / Normal )</td>
+                      <td id="sDuration"></td>
+                    </tr>
+                    <tr>
+                      <td>Tickets</td>
+                      <td id="stickets"></td>
+                    </tr>
+                    <tr>
+                      <td>Total Payable</td>
+                      <td id="summaryTotal"></td>
+                    </tr>
+                  </table>
+                  </div>
+                  </section>
+                  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                  </div>
+        </section>
+    </main>
+    </div>
+
+    
+    <script src="paypage.js"></script>
+    
+</body>
+</html>
+

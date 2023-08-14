@@ -1,0 +1,229 @@
+body{
+    background-image: url(images/wallpaperflare.com_wallpaper\ \(4\).jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+.logo{
+    
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    width: 60px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+
+.nav{
+    background-color: black;
+    height: 80px;
+   
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    background-color: 3px solid black;
+
+
+}
+nav ul{
+    
+    margin-right: 70px;
+    margin-left:60px;
+    
+}
+nav ul li a{
+    color: #fff;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active,a:hover{
+    background: #7c7778;
+    transition: 1s;
+
+}
+
+@media screen and (max-width: 600px){
+
+    .logo {
+        position: absolute;
+        top: 1%;
+        left: 1%;
+        width: 60px;
+      }
+    }
+
+
+    .buytickets{
+        background-color: rgb(181, 177, 218);
+        width: 95%;
+        height: 800px;
+        margin: 50px;
+        border-radius: 10px;
+      }
+.buytickets p{
+    text-align: center;
+    background-color: rgb(52, 64, 110); 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    padding: 12px 28px;
+    width: 100%;
+    height: 80px;
+    border: 5px solid rgb(22, 108, 22);
+}
+
+
+.gurstbox1 h2{
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+
+.gurstbox1 {
+
+    background-color: lightgrey;
+    width: 50%;
+    height: auto;
+    margin: 40px;
+    border-radius: 10px;
+    float: left;
+    padding: 60px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 8px  black;
+    margin-left: 100px;
+    
+  }
+
+  .gurstbox{
+    background-color: lightgray;
+    font-weight: bold;
+    align-items: center;
+    width: 500px;
+    display: flex;
+    padding: 40px;
+    margin: 33px;
+    margin-top: -605px;
+    box-shadow: 4px 4px 10px  black;
+    font-size: 20px;
+    float: right;
+}
+
+.gurstbox1 h2{
+    text-align: center;
+}
+ 
+
+
+
+form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    max-width: 470px;
+    margin-left: 50px;
+
+    
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bolder;
+    padding: 10px;
+  
+}
+
+input {
+    padding: 13px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    font-size: 18;
+}
+
+button {
+    padding: 10px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Style for the error messages */
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .logo {
+        width: 40px; 
+    }
+
+    .buytickets,
+    .gurstbox1{
+        width: 90%;
+        margin: 20px auto; 
+        padding: 20px;
+        margin-left: 20px;
+    }
+    .gurstbox {
+        width: 90%;
+        margin: 20px auto; 
+        padding: 20px;
+        margin-right: 35px;
+    }
+
+    .buytickets p {
+        font-size: 24px; 
+    }
+
+    .gurstbox1 h2 {
+        font-size: 24px; 
+    }
+
+    .gurstbox h2 {
+        font-size: 18px; 
+    }
+
+    form {
+        margin-left: 20px; 
+    }
+
+    label {
+        font-size: 16px; 
+    }
+
+    input {
+        font-size: 16px;
+    }
+
+    button {
+        font-size: 16px; 
+        padding: 8px 12px; 
+    }
+}

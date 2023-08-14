@@ -1,0 +1,418 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.nav{
+    background-color: black;
+    height: 80px;
+    width: 100%;   
+}
+nav ul{
+    float: right;
+    background-color: #000;
+    width: 100%;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: #fff;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    margin-left: 70px;
+}.active,a:hover{
+    background: #7c7778;
+    transition: 1s;
+
+}
+.logo{
+    
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    width: 60px;
+}
+body{
+    background-color:rgb(58, 58, 161);
+}
+.kosgodabackground img{
+    height: 500px;
+    width: 100%;
+}
+.text h1{
+    margin-left: 100px;
+    margin-top: -300px;
+    color: #fff;
+    font-size: 90px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+  
+  @keyframes example {
+    0%   {background-color:transparent; left:0px; top:0px;}
+    25%  {background-color:transparent; left:200px; top:0px;}
+    50%   {background-color:transparent; left:-50px; top:0px;}
+
+
+  }
+.kosgoda{
+
+        background-color: whitesmoke;
+        height: auto;
+        border: 1px solid rgb(13, 13, 13);
+        padding: 50px;
+        margin: 20px;
+        margin-left: 30px;
+        margin-top: 200px;
+      
+}
+.kosgoda h1{
+    font-size: 35px;
+    color: rgb(1, 91, 147);
+    padding: 50px;
+    text-decoration: underline 6px black;
+
+}
+.kosgoda p{
+    padding: 50px;
+    font-size: 18px;
+}
+.kosgoda img{
+    width: 400px;
+    height: 400px;
+    float: right;
+    margin-top: -400px;
+    border: 3px solid black;
+}
+.kosgoda img:hover{
+    transform: scale(1.1);
+    }
+
+
+.hatcherywork{
+    background-color: whitesmoke;
+    height: auto;
+    border: 1px solid rgb(13, 13, 13);
+    padding: 50px;
+     margin: 20px;
+    margin-left: 30px;
+}  
+.hatcherywork h1{
+    padding: 50px;
+
+}
+.work {
+    list-style: none; /* Remove default bullet points */
+    font-size: 18px;
+    padding: 50px;
+  }
+  
+  .work li::before {
+    content: "\2022"; /* Unicode character for bullet (•) */
+    color: black; /* Customize bullet color */
+    margin-right: 5px; /* Add some spacing between bullet and list item */
+  }
+
+.column img{
+    width: 600px;
+    height: 400px;
+    padding: 10px;
+}
+.column {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+
+.thingstoknow{
+
+    background-color: whitesmoke;
+    height: auto;
+    border: 1px solid rgb(13, 13, 13);
+    padding: 50px;
+    margin: 20px;
+    margin-left: 30px;
+    
+
+  }
+  .thingstoknow h1{
+    margin-left: 30px;
+  }
+.popular{
+    
+    width: 300px;
+    height: 150px;
+    border: 1px solid rgb(13, 13, 13);
+    padding: 50px;
+    margin: 20px;
+    margin-left: 30px;
+    background-color:wheat;
+    border-radius: 10%;
+    margin-top: 50px;
+
+}  
+.popular h4{
+    
+    margin-top: -40px;
+    margin-left: -30px;
+    font-size: 20px;
+    
+    }
+.popular p1{
+    font-size: 16px;
+    opacity: 50%;
+    margin-left: -20px;
+}
+
+.popular img{
+    margin-top: 5px;
+    margin-left: -30px;
+}
+.popular:hover{
+    transform: scale(1.1);
+}
+
+.Visiting{
+
+    width: 300px;
+    height: 150px;
+    border: 1px solid rgb(13, 13, 13);
+    padding: 50px;
+    margin: 20px;
+    margin-left: 490px;
+    background-color:wheat;
+    border-radius: 10%;
+    margin-top: -170px;
+    
+
+}  
+.Visiting h4{
+    
+    margin-top: -40px;
+    margin-left: -30px;
+    font-size: 20px;
+    
+}
+
+.Visiting p{
+    color: blueviolet;
+    margin-top: 10px;
+    margin-left: -20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.Visiting p1{
+    font-size: 16px;
+    opacity: 50%;
+    margin-left: -20px;
+    margin-top: 100px;
+    
+}
+.Visiting:hover{
+    transform: scale(1.1);
+
+}
+.busy{
+  
+    width: 300px;
+    height: 150px;
+    border: 1px solid rgb(13, 13, 13);
+    padding: 50px;
+    margin: 20px;
+    margin-left: 940px;
+    background-color:wheat;
+    border-radius: 10%;
+    margin-top: -170px;
+    
+
+}  
+.busy h4{
+    
+    margin-top: -40px;
+    margin-left: -30px;
+    font-size: 20px;
+    
+}
+
+.busy p{
+    color: blueviolet;
+    margin-top: 10px;
+    margin-left: -20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.busy:hover{
+    transform: scale(1.1);
+}
+.destination h1{
+    margin-top: 30px;
+    
+}
+.destination{
+    font-size: 18px;
+}
+.destination p{
+    margin-left: 30px;
+}
+.location iframe{
+   
+
+    margin-left: 870px;
+    margin-top: -190px;
+   
+
+}
+
+
+@media (max-width: 600px) {
+
+
+    
+    .kosgoda{
+        margin-top: 10px;
+    }
+
+    .kosgoda p {
+        padding: 20px;
+        font-size: 16px;
+      }
+    
+      .kosgoda img {
+        width: 100%;
+        height: auto;
+        float: none;
+        margin-top: 0;
+        border: none;
+      }
+    
+    .popular,
+    .Visiting,
+    .busy {
+      width: 100%;
+      margin: 20px;
+      margin-left: 0;
+    }
+    .location iframe {
+        margin-left: 40px;
+        margin-top: 50px;
+        /* Additional styles for responsiveness */
+      }
+
+
+
+
+      .footer-menu ul{
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 20px;
+      }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+.body{
+    background: #fcfcfc;
+    font-family: sans-serif;
+    margin-top: -100px;
+}
+footer{
+    
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+    
+}
+.footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px;
+padding-bottom: 40px;
+    text-align: center;
+
+}
+.footer-bottom p{
+float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    color: white;
+
+}
+.footer-bottom p a{
+  color:#44bae8;
+  font-size: 16px;
+  text-decoration: none;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+
+
+
+

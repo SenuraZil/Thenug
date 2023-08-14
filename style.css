@@ -1,0 +1,1797 @@
+
+#images{
+    background-image: url(images/wallpaperflare.com_wallpaper\ \(4\).jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+.logo{
+    
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    width: 60px;
+}
+.turtle-text{
+    text-align: center;
+    color: gainsboro;
+    padding-top: 180px;
+    
+
+}
+.turtle-text h1{
+    font-size: 100px;
+
+}
+.turtle-text p{
+    font-size: 20px;
+    font-style: italic;
+}
+.turtle-btn{
+    margin: auto;
+
+
+}
+.turtle-btn a {
+    width: 140px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 40px;
+    color: #fff;
+    padding: 12px 0;
+    border: 5px solid #fff;
+    position: relative;
+    z-index: 6;
+    transition: color 0.5s;
+
+}
+.turtle-btn a span{
+    width: 0% ;
+    height: 100%;
+    position: absolute;
+    top:0% ;
+    left: 0px;
+    background:#fff;
+    z-index: -1;
+    transition: 0.5s;
+    
+
+}
+
+.turtle-btn a:hover span{
+    width: 100%;
+   
+}
+.turtle-btn a:hover {
+    color: #000;
+   
+}
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+
+.nav{
+    background-color: black;
+    height: 80px;
+   
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    background-color: 3px solid black;
+
+
+}
+nav ul{
+    
+    margin-right: 70px;
+    margin-left:60px;
+    
+}
+nav ul li a{
+    color: #fff;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active,a:hover{
+    background: #7c7778;
+    transition: 1s;
+
+}
+
+@media screen and (max-width: 600px){
+
+    .logo {
+        position: absolute;
+        top: 1%;
+        left: 1%;
+        width: 60px;
+      }
+      
+      .turtle-text {
+        text-align: center;
+        color: gainsboro;
+        padding-top: 180px;
+      }
+      
+      .turtle-text h1 {
+        font-size: 100px;
+      }
+      
+      .turtle-text p {
+        font-size: 20px;
+        font-style: italic;
+      }
+      
+      .turtle-btn {
+        margin: auto;
+      }
+      
+      .turtle-btn a {
+        width: 140px;
+        text-decoration: none;
+        display: inline-block;
+        margin: 0 40px;
+        color: #fff;
+        padding: 12px 0;
+        border: 5px solid #fff;
+        position: relative;
+        z-index: 6;
+        transition: color 0.5s;
+      }
+      
+      .turtle-btn a span {
+        width: 0%;
+        height: 100%;
+        position: absolute;
+        top: 0%;
+        left: 0px;
+        background: #fff;
+        z-index: -1;
+        transition: 0.5s;
+      }
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+      
+      /* Responsive styles for screens up to 600px */
+      @media (max-width: 600px) {
+        .logo {
+          width: 40px;
+        }
+      
+        .turtle-text {
+          padding-top: 100px;
+        }
+      
+        .turtle-text h1 {
+          font-size: 60px;
+        }
+      
+        .turtle-text p {
+          font-size: 14px;
+        }
+      
+        .turtle-btn a {
+          width: 120px;
+          margin: 0 20px;
+          padding: 8px 0;
+          border-width: 3px;
+        }
+      
+        .nav ul {
+          margin-right: 40px;
+          margin-left: 30px;
+        }
+      
+        nav ul li a {
+          font-size: 14px;
+          padding: 5px 10px;
+        }
+      }
+}
+
+
+
+
+
+
+
+
+
+
+
+/*--HOME Page--*/
+
+
+body{
+    background : url(images/wallpaperflare.com_wallpaper\ \(4\).jpg) ;
+    background-attachment: fixed;
+
+    
+    
+}
+
+.video{
+   
+   margin-left: 870px;
+    margin-top: -300px;
+
+}
+
+
+
+
+
+
+section .leftBox1 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    padding: 50px;
+    box-sizing: border-box;
+}
+/* Styling the background of
+    left floating section */
+section .leftBox1 .content2 {
+    color: #fff;
+    background: rgba(62, 8, 8, 0.5);
+    padding: 40px;
+    transition: .5s;
+}
+
+/* Styling the header of left
+    floating section */
+section .leftBox1 .content2 h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 60px;
+    text-transform: uppercase;
+    color:aqua;
+}
+/* Styling the paragraph of
+    left floating section */
+.leftBox1 .content2 p {
+    margin: 10px 0 0;
+    padding: 0;
+    font-size: 22px;
+}
+.hatchery {
+    list-style: none; /* Remove default bullet points */
+    
+  }
+  
+  .hatchery li::before {
+    content: "\2022"; /* Unicode character for bullet (•) */
+    color: black; /* Customize bullet color */
+    margin-right: 5px; /* Add some spacing between bullet and list item */
+  }
+
+ .leftBox3 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    padding: 50px;
+    box-sizing: border-box;
+    padding-top: 10%;
+    
+}
+/* Styling the background of
+    left floating section */
+.leftBox3 .content4 {
+    color:black;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 40px;
+    transition: .5s;
+}
+/* Styling the paragraph of
+    left floating section */
+ .leftBox3 .content4 p {
+    margin: 10px 0 0;
+    padding: 0;
+    font-size: 24px;
+}
+
+
+
+@media screen and (max-width: 600px){
+    .video {
+
+        margin-left: 150px;
+        margin-top: -200px;
+        width: 50px;
+        height: 100px;
+      }
+    
+      section .leftBox1,
+      .leftBox3 {
+        padding: 20px;
+      }
+    
+      section .leftBox1 .content2 h1 {
+        font-size: 40px;
+      }
+    
+      .leftBox1 .content2 p,
+      .leftBox3 .content4 p {
+        font-size: 18px;
+      }
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+/*--Turtle categories--*/
+
+
+
+ .leftBox {
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 50px;
+    box-sizing: border-box;
+}
+/* Styling the background of
+    left floating section */
+ .leftBox .content {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    transition: .5s;
+}
+/* Styling the hover effect 
+    of left floating section */
+ .leftBox .content:hover {
+    background: #252424;
+}
+/* Styling the header of left
+    floating section */
+.leftBox .content h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+/* Styling the paragraph of
+    left floating section */
+.leftBox .content p {
+    margin: 10px 0 0;
+    padding: 0;
+}
+/* Styling the three events section */
+ .events {
+    position:top;
+    width: 45%;
+    height: 100%;
+    /* background: rgba(0, 0, 0, 0.5); */
+    float: right;
+    box-sizing: border-box;
+}
+/* Styling the links of
+the events section */
+section .events ul {
+    position: absolute;
+    top: 10%;
+    
+    margin: 0;
+    padding: 20px;
+    
+}
+/* Styling the lists of the event section */
+section .events ul li {
+    list-style: none;
+    background: #fff;
+    box-sizing: border-box;
+    height: 130px;
+    margin: 15px 0;
+}
+/* Styling the time class of events section */
+.events ul li .time {
+    position: relative;
+    padding: 20px;
+   
+    box-sizing: border-box;
+    width: 30%;
+    height: 100%;
+    float: left;
+    text-align: center;
+
+    
+}
+
+ .events ul li .time :hover {
+    transform: scale(1.1);
+    left: -10px;
+    top: -10px;
+}
+
+
+/* Styling the header of time
+    class of events section */
+.events ul li .time h2 {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 60px;
+    line-height: 30px;
+}
+/* Styling the texts of time
+class of events section */
+ .events ul li .time h2 span {
+    font-size: 30px;
+}
+
+/* Styling the details
+class of events section */
+.events ul li .details {
+    padding: 20px;
+    background: rgb(249,235,210);
+    box-sizing: border-box;
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+/* Styling the header of the
+details class of events section */
+.events ul li .details h3 {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+}
+/* Styling the lists of details
+class of events section */
+.events ul li .details p {
+    position: relative;
+    margin: 10px 0 0;
+    padding: 0;
+    font-size: 16px;
+}
+/* Styling the links of details
+class of events section */
+ .events ul li .details a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1.5px solid #262626;
+    margin-top: 8px;
+    font-size: 18px;
+    transition: .5s;
+}
+/* Styling the details class's hover effect */
+ .events ul li .details a:hover {
+    background: wheat;
+    color: #fff;
+    
+}
+ .events ul li .details1{
+    padding: 20px;
+    background: rgb(249,235,210);
+    box-sizing: border-box;
+    width: 70%;
+    height: 100%;
+    float: left;
+    margin-top: 3%;
+}
+ .events ul li .details1 h3 {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+}
+/* Styling the lists of details
+class of events section */
+ .events ul li .details1 p {
+    position: relative;
+    margin: 10px 0 0;
+    padding: 0;
+    font-size: 16px;
+}
+/* Styling the links of details
+class of events section */
+.events ul li .details1 a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-top: 8px;
+    font-size: 18px;
+    transition: .5s;
+}
+
+.events ul li .time1 {
+    position: relative;
+    padding: 20px;
+    left: -30px;
+    box-sizing: border-box;
+    width: 30%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    top: -1.5px;
+}
+ .events ul li .time1:hover {
+        transform: scale(1.1);
+    
+    
+}
+ .events ul li .details1 h3 {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+}
+
+table, th, td {
+    background-color:wheat;
+    margin-top: 700px;
+    border: 1px solid black;
+    
+  }
+  
+  th:nth-child(even),td:nth-child(even) {
+    background-color: #D6EEEE;
+  }
+.table{
+    
+    margin-top: 700px;
+    
+}
+
+table img{
+    border: 3px solid black;
+    transition: all .25s ease;
+    padding: 5px;
+}
+table img:hover {
+    transform: scale(1.1);
+
+}
+
+th{
+    padding: 20px;
+    width: 10px;
+    font-size: 24px;
+}
+td{
+    
+    padding: 20px;
+    width: 100px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--Threats--*/
+
+
+
+
+
+
+.threats-col{
+    background-color: lightgrey;
+    width: 1400px;
+    height: auto;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    margin-left: 0px;
+   
+  }
+.threats-col h1{
+    font-size: 35px;
+}
+.conimg img{
+    border: 3px solid black;
+    
+}
+.conimg img:hover{
+transform: scale(1.1);
+}
+.column1{
+    background-color: #009688;
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: auto;
+    border: 18px solid green;
+    border-left: 5px solid green;   
+}
+
+.column1 h2{
+    margin-left: 15px;
+    font-size: 35px;
+    margin-bottom: 10px;
+
+  }
+.column1 p{
+    margin-left: 5px;
+    margin-top: 15px;
+
+  }
+  .column1 li{
+    padding-left: 20px;
+
+  }
+  .column1 {
+    list-style: none; /* Remove default bullet points */
+    
+  }
+  
+  .column1 li::before {
+    content: "\2022"; /* Unicode character for bullet (•) */
+    color: black; /* Customize bullet color */
+    margin-right: 5px; /* Add some spacing between bullet and list item */
+  }
+
+
+.column{
+    background-color: #d63054;
+    border: 16px solid green;
+    
+}
+
+.layout {
+    box-sizing: border-box;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+  }
+
+  .column h2{
+    margin-left: 15px;
+    font-size: 35px;
+
+  }
+  .column p{
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: auto;
+    
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .turtleconversation h5{
+    text-align: center;
+    margin-left: 100px ;
+    margin-bottom: 40px;
+    padding: 100px;
+    font-size: 35px;
+  }
+ .threats-col img{
+         margin: 20px;     
+  }
+
+  .turtleconversation{
+    background-color: lightgrey;
+    width: 1400px;
+    height: auto;
+    border: 5px solid green;
+    padding: 50px;
+    margin: 20px;
+    margin-left: 30px;  
+   
+  }
+
+  .navy {
+    position: relative;
+    max-width: 400px; /* Maximum width */
+    margin: 30px; /* Center it */
+    padding-top: 460px;
+
+    
+    
+  
+  }
+  .navy img{
+    width: 400px;
+    border: 3px solid black;
+    height: 240px;
+
+
+  }
+  .navy:hover {
+    transform: scale(1.1);
+
+}
+
+.navy h1{
+    background-color: aquamarine ;
+     margin-top: -5px;
+     padding: 10px;
+     border: 3px solid black;
+     
+
+}
+
+.navy p{
+    background-color: #f2e1e1;
+    padding: 10px;
+    border: 3px solid black;
+    border-top:0px solid black; 
+    
+    
+    
+}
+
+
+
+.arrested {
+    position: relative;
+    display: block;
+    max-width: 400px; /* Maximum width */
+    margin: 30px; /* Center it */
+    padding-top: 0px;
+    float:right;
+    margin-top: -489px;
+    margin-left: 70px;
+    
+  
+  }
+  .arrested img{
+    width: 400px; 
+    border: 3px solid black;
+
+  }
+  .arrested:hover {
+    transform: scale(1.1);
+
+}
+
+.arrested h1{
+    background-color: aquamarine ;
+     margin-top: -5px;
+     padding: 10px;
+     border: 3px solid black;
+     border-bottom:0px solid black; 
+
+}
+
+.arrested p{
+    background-color: #f2e1e1;
+    padding: 10px;
+    border:3px solid black; 
+    
+
+}
+
+
+
+.chemical {
+    position: relative;
+    display: block;
+    max-width: 400px; /* Maximum width */
+    margin: 30px; /* Center it */
+    padding-top: 0px;
+    float: right;
+    margin-top: -489px;
+    margin-right: 0px;
+   
+
+  
+  }
+  .chemical img{
+    width: 430px; 
+    border: 3px solid black;
+  }
+  .chemical:hover {
+    transform: scale(1.1);
+
+}
+
+.chemical h1{
+    background-color: aquamarine ;
+     margin-top: -5px;
+     padding: 10px;
+     border: 3px solid black;
+     border-bottom: 0px solid black;
+     width: 430px;
+
+}
+
+.chemical p{
+    background-color: #f2e1e1;
+    padding: 10px;
+    border: 3px solid black;
+    padding-bottom: 10px;
+    width: 430px;
+    
+}
+
+
+
+/* Responsive styles for screens up to 600px */
+@media (max-width: 600px) {
+  .threats-col,
+  .turtleconversation {
+    width: auto;
+    margin: 10px;
+    padding: 20px;
+  }
+
+  .column1,
+  .column {
+    width: 100%;
+  }
+
+  .navy{
+    max-width: 100%;
+    margin: 70px;
+    margin-left: 70px;
+  }
+  .arrested{
+    max-width: 100%;
+    margin: 70px;
+    margin-left: 70px;
+    padding-left: 70px;
+
+  }
+  .chemical {
+    max-width: 100%;
+    margin: 70px;
+    margin-left: 70px;
+
+  }
+
+  .navy img{
+    width: 460px;
+  }
+  .arrested img{
+    width: 500px;
+  }
+  .chemical img {
+    width: 500px;
+  }
+
+  .chemical h1{
+    width: 500px;
+  }
+  .chemical p{
+    width: 500px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--Hikkaduwa--*/
+
+.hikkaduwa {
+    background-color: lightgrey;
+    width: auto;
+    padding: 50px;
+    margin: 20px;
+    margin-top: 70px;
+    margin-left: 80px;
+    margin-right: 80px;
+    border: 5px solid black;
+   
+  }
+
+.ticketsb {
+      background-color: rgb(37, 178, 131); /* Green */
+      border: none;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 10px ;
+      cursor: pointer;
+      padding: 12px 28px;
+      width: 89%;
+      margin-left: 85px;
+      height: 90px;
+      border: 5px solid #570e0e;
+    }
+   
+   
+.ticketsb p{
+      font-size: 24px;
+      margin-top: 20px;
+      color: white;
+    }
+
+.ticketsb :hover{
+  transform: scale(1.1);
+  
+}
+
+  
+.hikkaduwa p{
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}  
+
+.hikkaduwa img{
+    
+    border: 2px solid brown;
+    margin-top: -230px;
+    width: 400px;
+    margin-left: 750px;
+
+}
+
+.thingstodo {
+    background-color: lightgrey;
+    width: auto;
+    padding: 50px;
+    margin: 20px;
+    margin-top: 90px;
+    margin-left: 80px;
+    margin-right: 80px;
+    border: 5px solid black;
+   
+  }
+.hatchlings img{
+    padding-left: 40px;
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+}  
+
+
+.thingstodo p{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.hikkaduwalocation{
+    background-color: lightgrey;
+    width: auto;
+    padding: 50px;
+    margin: 20px;
+    margin-top: 90px;
+    margin-left: 80px;
+    margin-right: 80px;
+    border: 5px solid black;
+   
+  }
+  .iframe iframe{
+    width: 400px;
+    height: 400px;
+    margin-top: -420px;
+    float: right;
+    border: 2px solid black;
+  }
+  
+  .hikkaduwalocation img:hover {
+    transform: scale(1.1);
+  }
+
+
+
+
+/* Responsive styles for screens up to 600px */
+@media (max-width: 600px) {
+    .hikkaduwa,
+    .thingstodo,
+    .hikkaduwalocation {
+      margin: 10px;
+      margin-top: 50px;
+      margin-left: 20px;
+      margin-right: 20px;
+      padding: 30px;
+    }
+  
+    .hikkaduwa img {
+      margin: 0;
+      margin-top: 20px;
+      width: 100%;
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .hikduwa img{
+      height: 10px;
+      width: auto;
+      margin-top: 400px;
+      margin-bottom: 100px;
+      margin-left: 400px;
+
+    }
+  
+    .hatchlings img {
+      margin-left: 0;
+      margin-right: 0;
+      width: 100%;
+      height: auto;
+    }
+  
+    .thingstodo p {
+      font-size: 16px;
+    }
+  
+    .iframe iframe {
+      width: 100%;
+      height: 300px;
+      margin-top: 20px;
+      float: none;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*--otherhateries--*/
+
+
+  .otherhatcheries {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .kosgoda {
+    float: left;
+    width: 50%;
+    height: 300px; /* Should be removed. Only for demonstration */
+   
+  }
+  .kosgoda img{
+    height: 720px;
+    width: 729px;
+    border-right:6px solid #000;
+    
+}
+.kosgoda p{
+    font-size: 79px;
+    color:white;
+    margin-top: -480px;
+    margin-left: 100px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.kosgoda p1{
+    font-size: 79px;
+    color:white;
+    margin-top: -480px;
+    margin-left: 210px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+/* Responsive styles for screens up to 600px */
+@media (max-width: 600px) {
+    .kosgoda {
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+  
+    .kosgoda img {
+      height: auto;
+      width: 100%;
+      border-right: none;
+      border-bottom: 6px solid #000;
+    }
+  
+    .kosgoda p{
+        margin-top: -700px;
+    }
+    .kosgoda p1 {
+      font-size: 79px;
+      margin-top: 20px;
+      margin-left: 105px;
+      text-align: center;
+
+    }
+
+    .kosgoda p5{
+        margin-left: -600px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+/* otherhatcheries */
+
+
+
+
+  
+  .benthota {
+    float: left;
+    width: 100px;
+    height: 100px; /* Should be removed. Only for demonstration */
+    
+  }
+  .benthota img{
+    height:  720px;
+    width: 730px;
+    border-left:6px solid #000;
+
+  }
+  .benthota p{
+    font-size: 79px;
+    color:white;
+    margin-top: -480px;
+    margin-left: 200px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.benthota p2{
+    font-size: 79px;
+    color:white;
+    margin-top: 60px;
+    margin-left: 210px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+  /* Clear floats after the columns */
+  .otherhatcheries:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.kosgoda a {
+    width: 140px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 40px;
+    color: #000000;
+    padding: 12px 0;
+    border: 5px solid #000000;
+    position: relative;
+    background-color:white;
+    margin-left: 300px;
+    border-radius: 10px;
+    margin-top: 90px;
+    opacity: 0.6;
+    transition: 0.3s;
+    margin-top: 170px;
+    
+    
+
+}
+.kosgoda a p5{
+
+    font-size: 24px;
+    margin-left: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.kosgoda a:hover {
+    opacity: 1
+}
+
+
+.benthota a {
+    width: 140px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 40px;
+    color: #000000;
+    padding: 12px 0;
+    border: 5px solid #000000;
+    position: relative;
+    z-index: 6;
+    transition: color 0.5s;
+    background-color: white;
+    margin-left: 300px;
+    border-radius: 10px;
+    opacity: 0.6;
+    transition: 0.3s;
+    margin-top: 70px;
+    
+}
+.benthota a p6{
+
+    font-size: 24px;
+    margin-left: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.benthota a:hover {
+    opacity: 1
+}
+
+
+
+
+@media (max-width: 600px) {
+  .benthota {
+    float: none;
+    width: 100%;
+    height: auto;
+  }
+
+  .benthota img {
+    height: 910px;
+    width: 100%;
+    border-left: none;
+    border-bottom: 6px solid #000;
+    margin-top: 200px;
+  }
+
+
+
+
+  .benthota p{
+    margin-top: -600px;
+    margin-left: 150px;
+    
+  }
+  .benthota p2 {
+    font-size: 40px;
+    margin-top: -500px;
+    margin-left: 150px;
+    text-align: center;
+    font-size:79px ;
+  }
+
+  .kosgoda a,
+  .benthota a {
+    margin-left: 200px;
+    margin-top: 20px;
+   
+  
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+.body{
+    background: #fcfcfc;
+    font-family: sans-serif;
+    margin-top: -100px;
+}
+footer{
+    
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+    
+}
+.footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px;
+padding-bottom: 40px;
+    text-align: center;
+
+}
+.footer-bottom p{
+float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    color: white;
+
+}
+.footer-bottom p a{
+  color:#44bae8;
+  font-size: 16px;
+  text-decoration: none;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+
+@media (max-width:500px) {
+.footer-menu ul{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+/* purchas */
+.Purchase{
+
+    width: 100%;
+    height: auto;
+    padding: 50px;
+    }
+
+.tumbler {
+    position: relative;
+    max-width: 400px; /* Maximum width */
+    margin: 30px; /* Center it */ 
+    
+  }
+  .Purchase h2{
+    font-size: 30px;
+    border-left: 8px solid rgb(231, 105, 8);
+    margin-bottom: 40px;
+    background-color: white;
+    width: 40%;
+    
+  }
+ 
+  .tumbler img{
+    width: 260px;
+    border: 3px solid black;
+    height: 250px;
+
+
+  }
+  .tumbler p:hover {
+    transform: scale(1.1);
+
+}
+
+.tumbler h1{
+    background-color: wheat ;
+   text-align: center;
+     border: 3px solid black;
+     font-size: 18px;
+     width: 260px;
+     
+
+}
+
+.tumbler p{
+    background-color: #f2e1e1;
+    padding: 10px;
+    border: 3px solid black;
+    width: 260px;
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+    
+}
+.tumbler1 {
+    position: relative;
+    max-width: 400px; /* Maximum width */
+    margin: 30px; /* Center it */ 
+    margin-left: 500px;
+    margin-top: -375px;
+  }
+
+.tumbler2{
+    position: relative;
+    max-width: 400px; /* Maximum width */
+    margin: 30px; /* Center it */ 
+    margin-left: 500px;
+    margin-top: -375px;
+}  
+.womenitems h3{
+    margin-left: -525px;
+    background-color: white ;
+    font-size: 30px;
+    border-left: 8px solid rgb(231, 105, 8);
+    margin-bottom: 40px;
+}
+
+.socks{
+    position: relative;
+    max-width: 400px; /* Maximum width */
+    margin: 30px; /* Center it */ 
+   margin-left: -500px;
+  
+  }
+.socks1{
+    position: relative;
+    max-width: 400px; /* Maximum width */
+    margin: 30px; /* Center it */ 
+   margin-left: 500px;
+   margin-top: -375px;
+  
+  }
+.socks2{
+    position: relative;
+    max-width: 400px; /* Maximum width */
+    margin: 30px; /* Center it */ 
+   margin-left: 500px;
+   margin-top: -375px;
+  
+}
+
+
+
+
+
+/* donation */
+.topic h5{
+    font-size: 65px;
+    margin-top: 100px;
+    color: black;
+    border-left: 8px solid rgb(231, 105, 8);
+    margin-left: -500px;
+    background-color: white ;
+    background-image: url(images/purchaseback.jpg);
+}
+.form{
+    
+    padding:25px;
+    min-height: 100vh;
+    float: left;
+    margin-left: -220px;
+    background: linear-gradient(90deg,rgb(231, 105, 8) 60%,rgb(193, 119, 63) 40.1%);
+    margin-top: 200px;
+
+  }
+  
+  .form form{
+    padding:20px;
+    width:700px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    
+  }
+  
+  
+  
+  .form form .side .down .caption{
+    font-size: 20px;
+    /* color:#333; */
+    padding-bottom: 5px;
+    text-transform: uppercase;
+  }
+  
+
+  
+  .form form .side .down .enter span{
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .form form .side .down .enter input{
+    width: 100%;
+    border:1px solid #ccc;
+    padding:10px 15px;
+    font-size: 15px;
+   
+  }
+  
+  .form form .side .down .enter input:focus{
+    border:1px solid #000;
+  }
+  
+  .form form .side .down .box{
+    gap:15px;
+  }
+  
+   
+  .form form .submit-btn{
+    width: 100%;
+    padding:12px;
+    font-size: 17px;
+    background: orange;
+    color:#fff;
+    margin-top: 5px;
+  
+  }
+  
+  .form form .submit-btn:hover{
+    background: red;
+  }
+  .topic h5{
+    font-size: 65px;
+    margin-top: 100px;
+    color: black;
+    border-left: 8px solid rgb(231, 105, 8);
+    margin-left: -500px;
+    background-color: white ;
+
+}
+.form{
+    
+    padding:25px;
+    min-height: 100vh;
+    float: left;
+    margin-left: -220px;
+    margin-top: 200px;
+
+  }
+  
+  .form form{
+    padding:20px;
+    width:700px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    
+  }
+  
+  
+  
+  .form form .side .down .caption{
+    font-size: 20px;
+    /* color:#333; */
+    padding-bottom: 5px;
+    text-transform: uppercase;
+  }
+  
+
+  
+  .form form .side .down .enter span{
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .form form .side .down .enter input{
+    width: 100%;
+    border:1px solid #ccc;
+    padding:10px 15px;
+    font-size: 15px;
+   
+  }
+  
+  .form form .side .down .enter input:focus{
+    border:1px solid #000;
+  }
+  
+  .form form .side .down .box{
+    gap:15px;
+  }
+  
+   
+  .form form .submit-btn{
+    width: 100%;
+    padding:12px;
+    font-size: 17px;
+    background: orange;
+    color:#fff;
+    margin-top: 5px;
+  
+  }
+  
+  .form form .submit-btn:hover{
+    background: red;
+  }
+
+
+  @media (max-width: 600px) {
+    .tumbler{
+      margin-left: 100px;
+    }
+    .tumbler1{
+      margin-top: 100px;
+      margin-left: 0px;
+    } 
+    .tumbler2{
+      margin-top: 100px;
+      margin-left: 0px;
+    }
+
+
+
+
+    .socks{
+      margin-top: 100px;
+      margin-left: 0px;
+    }
+
+    .socks1{
+      margin-top: 100px;
+      margin-left: 0px;
+    }
+
+    .socks2 {
+      margin-top: 100px;
+      margin-left: 0px;
+    }
+
+    .womenitems h3 {
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+    }
+    .form{
+      margin: -1px;
+    }
+  
+  
+    .topic h5 {
+      font-size: 40px;
+      margin-top: 50px;
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    .form {
+      margin: 0 auto;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      padding: 15px;
+      width: 90%;
+    }
+  
+  
+    .form form .side .down .enter input {
+      font-size: 14px;
+    }
+  }
+  
+  
+  
+
+
+  
+  
+  
+  
+  
+  
